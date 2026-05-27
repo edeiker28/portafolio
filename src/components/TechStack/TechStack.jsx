@@ -1,19 +1,20 @@
 import { motion } from 'framer-motion'
 import { personal } from '@/data/personal'
 import {
-  SiPython, SiFastapi, SiFlask, SiSqlalchemy, SiNodedotjs,
-  SiReact, SiJavascript, SiTypescript, SiTailwindcss, SiHtml5, SiCss3,
-  SiMariadb, SiMysql, SiPostgresql, SiMongodb, SiSqlite,
+  SiPython, SiFastapi, SiFlask, SiNodedotjs,
+  SiReact, SiJavascript, SiTypescript, SiTailwindcss,
+  SiMysql, SiPostgresql, SiMongodb, SiSqlite,
   SiDocker, SiGit, SiGithub, SiLinux, SiPostman,
 } from 'react-icons/si'
 import { VscVscode } from 'react-icons/vsc'
+import { FaHtml5, FaCss3Alt, FaDatabase } from 'react-icons/fa'
 
 const iconMap = {
   Python: SiPython, FastAPI: SiFastapi, Flask: SiFlask,
-  SQLAlchemy: SiSqlalchemy, 'Node.js': SiNodedotjs,
+  'Node.js': SiNodedotjs,
   React: SiReact, JavaScript: SiJavascript, TypeScript: SiTypescript,
-  TailwindCSS: SiTailwindcss, HTML5: SiHtml5, CSS3: SiCss3,
-  MariaDB: SiMariadb, MySQL: SiMysql, PostgreSQL: SiPostgresql,
+  TailwindCSS: SiTailwindcss, HTML5: FaHtml5, CSS3: FaCss3Alt,
+  MariaDB: FaDatabase, MySQL: SiMysql, PostgreSQL: SiPostgresql,
   MongoDB: SiMongodb, SQLite: SiSqlite,
   Docker: SiDocker, Git: SiGit, GitHub: SiGithub,
   Linux: SiLinux, Postman: SiPostman, 'VS Code': VscVscode,
