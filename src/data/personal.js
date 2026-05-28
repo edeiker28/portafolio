@@ -26,6 +26,12 @@ export const personal = {
   },
   featuredProjects: [
     {
+      title: 'Sistema de Reservas',
+      description: 'SaaS multi-tenant para gestión de citas y reservas online. Negocios crean su perfil y clientes reservan sin necesidad de cuenta.',
+      tech: ['FastAPI', 'PostgreSQL', 'React', 'TailwindCSS', 'Redis', 'Docker'],
+      features: ['Multi-tenant con RLS', 'Booking público sin cuenta', 'Panel admin completo', 'Gestión de servicios y personal', 'Anti-doble-booking', 'Auth JWT'],
+    },
+    {
       title: 'Sistema de Mesa de Ayuda / Ticketing',
       description: 'Aplicación moderna para gestión de tickets y soporte técnico.',
       tech: ['FastAPI', 'SQLAlchemy', 'MariaDB', 'Docker', 'React'],
