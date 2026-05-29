@@ -31,6 +31,7 @@ export const personal = {
       tech: ['React 19', 'TypeScript', 'TailwindCSS', 'TanStack Query', 'Zustand', 'Framer Motion'],
       features: ['Pokédex paginado con 1025 Pokémon', 'Búsqueda y filtros por 18 tipos', 'Detalle con stats, evoluciones y movimientos', 'Team Builder con análisis de debilidades', 'Equipo persistido en localStorage', 'Estética gamer con colores dinámicos por tipo'],
       github: 'pokedex',
+      demo: 'https://pokedex-green-seven.vercel.app',
     },
     {
       title: 'Sistema de Reservas',
