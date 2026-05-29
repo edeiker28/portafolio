@@ -47,13 +47,36 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <ul className="text-xs text-muted space-y-1">
+                <ul className="text-xs text-muted space-y-1 mb-5">
                   {project.features.map(f => (
                     <li key={f} className="flex items-center gap-2">
                       <span className="text-purple-light">▸</span> {f}
                     </li>
                   ))}
                 </ul>
+                <div className="flex gap-3 pt-3 border-t border-white/5">
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex-1 text-center text-xs font-semibold py-2 rounded-lg transition-all hover:scale-105"
+                      style={{ background: 'linear-gradient(135deg,#7c3aed,#6d28d9)', color: 'white', boxShadow: '0 0 12px rgba(124,58,237,0.35)' }}
+                    >
+                      ▸ Ver Demo
+                    </a>
+                  )}
+                  {project.github && (
+                    <a
+                      href={`https://github.com/${personal.github}/${project.github}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex-1 text-center text-xs font-semibold py-2 rounded-lg border border-white/10 text-slate-300 hover:border-purple-primary/50 hover:text-white transition-all"
+                    >
+                      ⌥ GitHub
+                    </a>
+                  )}
+                </div>
               </motion.div>
             ))}
           </div>
