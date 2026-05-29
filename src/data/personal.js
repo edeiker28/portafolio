@@ -26,6 +26,13 @@ export const personal = {
   },
   featuredProjects: [
     {
+      title: 'PokéDex + Team Builder',
+      description: 'SPA con React que consume la PokeAPI. Pokédex completo con más de 1000 Pokémon, búsqueda y filtros por tipo, y un Team Builder con análisis de cobertura de tipos en tiempo real.',
+      tech: ['React 19', 'TypeScript', 'TailwindCSS', 'TanStack Query', 'Zustand', 'Framer Motion'],
+      features: ['Pokédex paginado con 1025 Pokémon', 'Búsqueda y filtros por 18 tipos', 'Detalle con stats, evoluciones y movimientos', 'Team Builder con análisis de debilidades', 'Equipo persistido en localStorage', 'Estética gamer con colores dinámicos por tipo'],
+      github: 'pokedex',
+    },
+    {
       title: 'Sistema de Reservas',
       description: 'SaaS multi-tenant para gestión de citas y reservas online. Negocios crean su perfil y clientes reservan sin necesidad de cuenta.',
       tech: ['FastAPI', 'PostgreSQL', 'React', 'TailwindCSS', 'Redis', 'Docker'],
