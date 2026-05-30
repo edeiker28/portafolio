@@ -26,6 +26,14 @@ export const personal = {
   },
   featuredProjects: [
     {
+      title: 'YGODEX — Card Database',
+      description: 'SPA completa con base de datos de cartas Yu-Gi-Oh y Deck Builder integrado. Carta-Dex con filtros avanzados, drag & drop entre zonas, análisis meta con score de calidad, probabilidades de mano inicial y exportación en PDF y .ydk.',
+      tech: ['React 19', 'TypeScript', 'TailwindCSS', 'TanStack Query', 'Zustand', 'Framer Motion', '@dnd-kit'],
+      features: ['12,400+ cartas con imagen completa Konami', 'Filtros avanzados persistidos en URL', 'Deck Builder con drag & drop', 'Análisis meta con score 0-100', 'Consistencia probabilística (hipergeométrica)', 'Exportar PDF y .ydk / Importar .ydk', 'Dark/Light mode'],
+      github: 'ygodex',
+      demo: 'https://ygodex.vercel.app',
+    },
+    {
       title: 'PokéDex + Team Builder',
       description: 'SPA con React que consume la PokeAPI. Pokédex completo con más de 1000 Pokémon, búsqueda y filtros por tipo, y un Team Builder con análisis de cobertura de tipos en tiempo real.',
       tech: ['React 19', 'TypeScript', 'TailwindCSS', 'TanStack Query', 'Zustand', 'Framer Motion'],
